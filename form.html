@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form in HTML</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Personal Details</legend>
+        <!--Drop down menu to enter your salutation-->
+        <label
+          >Salutation <br />
+          <select name="salutation">
+            <option value="None">--NONE--</option>
+            <option value="Mr.">Mr.</option>
+            <option value="Mrs.">Mrs.</option>
+            <option value="Miss">Miss</option>
+            <option value="Master">Master</option>
+            <option value="Shree">Shree</option>
+            <option value="Smt.">Smt.</option>
+            <option value="Dr.">Dr.</option>
+          </select>
+        </label>
+
+        <!--Enter your first name-->
+        <p>
+          <label>First Name: <input type="text" /></label>
+        </p>
+        <!--Enter your last name-->
+        <p>
+          <label>Last Name: <input type="text" /></label>
+        </p>
+
+        <!--Input your gender using radio button-->
+        <p>
+          Gender :
+          <label>Male<input type="radio" name="gender" value="male" /></label>
+          <label
+            >Female<input type="radio" name="gender" value="female"
+          /></label>
+        </p>
+
+        <!--Input your Email-->
+        <p>
+          <label>Email: <input type="email" /></label>
+        </p>
+
+        <!--Enter your email-->
+        <p>
+          <label>Date of Birth: <input type="date" /></label>
+        </p>
+
+        <!--Enter your Address-->
+        <p>
+          <label
+            >Address<br />
+            <textarea name="Address" cols="40" rows="10"></textarea>
+          </label>
+        </p>
+
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
